@@ -15,6 +15,7 @@ if(place_meeting(x+sign(hsp),y,oBlock))
 	{
 	
 	}
+	//test
 }
 
 //Vertical Collision
