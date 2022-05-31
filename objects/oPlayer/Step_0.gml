@@ -36,3 +36,24 @@ if(place_meeting(x,y+vsp,oBlock))
 	vsp = 0;
 }
 y = y + vsp;
+
+//Animation
+if(!place_meeting(x,y+1,oBlock))
+{
+	sprite_index = sPlayerAir;
+	image_speed = 0;
+	if(sign(vsp) > 0) image_index = 1; else image_index = 0;
+}
+else
+{
+	image_speed = 1;
+	if(hsp == 0)
+	{
+		sprite_index = sPlayerIdle
+	}
+	else
+	{
+		image_speed = 0.1
+		sprite_index = sPlayerWalk
+	}
+}
