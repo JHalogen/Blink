@@ -3,6 +3,8 @@ key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
 key_jump = keyboard_check_pressed(vk_space);
 
+
+
 //Calculate Movement
 var move = key_right - key_left;
 
@@ -57,3 +59,5 @@ else
 		sprite_index = sPlayerWalk
 	}
 }
+
+if (hsp != 0) image_xscale = sign(hsp);
