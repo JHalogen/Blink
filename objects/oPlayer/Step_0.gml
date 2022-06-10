@@ -55,8 +55,9 @@ else
 	}
 	else
 	{
-		image_speed = 0.1
-		sprite_index = sPlayerWalk
+		image_speed = 1
+		if(sprite_index == sPlayerIdle) sprite_index = sPlayerTurn;
+		else if(sprite_index != sPlayerTurn) sprite_index = sPlayerWalk;
 	}
 }
 
