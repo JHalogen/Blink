@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Transitions",
-    "path": "folders/Globals/Transitions.yy",
+    "name": "Player",
+    "path": "folders/Player.yy",
   },
   "resourceVersion": "1.0",
-  "name": "SlideTransition",
+  "name": "Collision",
   "tags": [],
   "resourceType": "GMScript",
 }
