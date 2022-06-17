@@ -29,9 +29,10 @@ if(Collision(x,y+1)) && (key_jump)
 //Horizontal Collision
 if(Collision(x+hsp,y))
 {
-	while (!Collision(x+sign(hsp),y))
+	while (abs(hsp) > 0.1)
 	{
-		x = x + sign(hsp);
+		hsp *= 0.5;
+		if(!Collision(x+hsp,y)) x += hsp;
 	}
 	hsp = 0;
 }
@@ -40,9 +41,10 @@ x = x + hsp;
 //Vertical Collision
 if(Collision(x,y+vsp))
 {
-	while (!Collision(x,y+sign(vsp)))
+	while (abs(vsp) > 0.1)
 	{
-		y = y + sign(vsp);
+		vsp *= 0.5;
+		if(!Collision(x,y+vsp)) y += vsp;
 	}
 	vsp = 0;
 }

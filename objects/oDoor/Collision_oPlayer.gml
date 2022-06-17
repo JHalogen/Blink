@@ -1,10 +1,7 @@
 // move to the next room
 
-with (oPlayer)
-{
-	if (hascontrol)
-	{
-		hascontrol = false;
-		SlideTransition(TRANS_MODE.GOTO,other.target);
-	}
+if (target != noone and other.hascontrol) {
+	show_debug_message(target);
+	other.hascontrol = false;
+	SlideTransition(TRANS_MODE.GOTO,target);
 }
