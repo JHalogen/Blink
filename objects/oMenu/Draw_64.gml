@@ -31,4 +31,5 @@ for (var i = 0; i < menu_items; i +=1)
 	draw_text(xx,yy,txt);
 }
 
+draw_set_color(c_white);
 draw_text(x-300,y-170,"Blink")
