@@ -1,8 +1,9 @@
 // SlideTransistion(mode, targetroom)
 
-
-with (oTransition)
-{
-	mode = argument[0];
-	if (argument_count > 1) target = argument[1];
+function SlideTransition(Mode,TargetRoom=noone) {
+	with (oTransition)
+	{
+		mode = Mode;
+		if (TargetRoom != noone) target = TargetRoom;
+	}
 }
