@@ -19,6 +19,7 @@
     {"spriteId":{"name":"sBlockMenu","path":"sprites/sBlockMenu/sBlockMenu.yy",},"colour":4294967295,"x":0,"y":480,"htiled":true,"vtiled":false,"hspeed":-2.5,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Wall_Menu","tags":[],"resourceType":"GMRBackgroundLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":256.0,"resourceVersion":"1.0","name":"inst_4D1771F7","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o3DTiles","path":"objects/o3DTiles/o3DTiles.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":320.0,"resourceVersion":"1.0","name":"inst_1E146547","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"sTree","path":"sprites/sTree/sTree.yy",},"colour":4294967295,"x":0,"y":150,"htiled":true,"vtiled":false,"hspeed":-2.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Trees_Menu","tags":[],"resourceType":"GMRBackgroundLayer",},
     {"spriteId":{"name":"sMountain","path":"sprites/sMountain/sMountain.yy",},"colour":4294967295,"x":0,"y":50,"htiled":true,"vtiled":false,"hspeed":-1.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Mountains_Menu","tags":[],"resourceType":"GMRBackgroundLayer",},
@@ -29,6 +30,7 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_4D1771F7","path":"rooms/rMenu/rMenu.yy",},
+    {"name":"inst_1E146547","path":"rooms/rMenu/rMenu.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

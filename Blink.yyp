@@ -19,6 +19,7 @@
     {"id":{"name":"sPlayerAir","path":"sprites/sPlayerAir/sPlayerAir.yy",},"order":2,},
     {"id":{"name":"Collision","path":"scripts/Collision/Collision.yy",},"order":2,},
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},"order":1,},
+    {"id":{"name":"o3DTiles","path":"objects/o3DTiles/o3DTiles.yy",},"order":0,},
     {"id":{"name":"sMountain","path":"sprites/sMountain/sMountain.yy",},"order":8,},
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},"order":2,},
     {"id":{"name":"rlevel3","path":"rooms/rlevel3/rlevel3.yy",},"order":4,},
@@ -69,6 +70,7 @@
     {"folderPath":"folders/Globals/Transitions/Door.yy","order":0,"resourceVersion":"1.0","name":"Door","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Globals.yy","order":1,"resourceVersion":"1.0","name":"Globals","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Enemy.yy","order":6,"resourceVersion":"1.0","name":"Enemy","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects.yy","order":7,"resourceVersion":"1.0","name":"Objects","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
