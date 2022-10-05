@@ -1,5 +1,7 @@
 {
   "resources": [
+    {"id":{"name":"oIcicle","path":"objects/oIcicle/oIcicle.yy",},"order":5,},
+    {"id":{"name":"sIcicle","path":"sprites/sIcicle/sIcicle.yy",},"order":4,},
     {"id":{"name":"rlevel1","path":"rooms/rlevel1/rlevel1.yy",},"order":2,},
     {"id":{"name":"rlevel6","path":"rooms/rlevel6/rlevel6.yy",},"order":6,},
     {"id":{"name":"rlevel4","path":"rooms/rlevel4/rlevel4.yy",},"order":5,},
@@ -15,6 +17,7 @@
     {"id":{"name":"tBlock","path":"tilesets/tBlock/tBlock.yy",},"order":10,},
     {"id":{"name":"sPlayerBlink","path":"sprites/sPlayerBlink/sPlayerBlink.yy",},"order":5,},
     {"id":{"name":"sBlock","path":"sprites/sBlock/sBlock.yy",},"order":0,},
+    {"id":{"name":"oFire","path":"objects/oFire/oFire.yy",},"order":3,},
     {"id":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},"order":1,},
     {"id":{"name":"sPlayerAir","path":"sprites/sPlayerAir/sPlayerAir.yy",},"order":2,},
     {"id":{"name":"Collision","path":"scripts/Collision/Collision.yy",},"order":2,},
@@ -22,6 +25,7 @@
     {"id":{"name":"o3DTiles","path":"objects/o3DTiles/o3DTiles.yy",},"order":2,},
     {"id":{"name":"sMountain","path":"sprites/sMountain/sMountain.yy",},"order":8,},
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},"order":2,},
+    {"id":{"name":"sFire","path":"sprites/sFire/sFire.yy",},"order":2,},
     {"id":{"name":"rlevel3","path":"rooms/rlevel3/rlevel3.yy",},"order":4,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":0,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":1,},
