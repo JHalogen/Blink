@@ -21,6 +21,8 @@ hsp = move * walksp;
 
 vsp = vsp + grv;
 
+
+
 if(Collision(x,y+1)) && (key_jump)
 {
 	vsp = -7;
@@ -59,6 +61,11 @@ if(!Collision(x,y+1))
 }
 else
 {
+	if(sprite_index == sPlayerAir)
+	{
+		audio_sound_pitch(snLand,choose(0.8,1.0,1.2))
+		audio_play_sound(snLand,10,false)
+	}
 	image_speed = 1;
 	if(hsp == 0)
 	{
@@ -73,3 +80,4 @@ else
 }
 
 if (hsp != 0) image_xscale = sign(hsp);
+

@@ -22,6 +22,7 @@ if (menu_control)
 		menu_x_target = gui_width+200;
 		menu_committed = menu_cursor;
 		menu_control = false;
+		audio_play_sound(snJump,10,false)
 	}
 }
 
