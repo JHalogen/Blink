@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oFire",
   "spriteId": {
     "name": "sFire",
     "path": "sprites/sFire/sFire.yy",
@@ -28,8 +31,4 @@
     "name": "Enemy",
     "path": "folders/Enemy.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oFire",
-  "tags": [],
-  "resourceType": "GMObject",
 }

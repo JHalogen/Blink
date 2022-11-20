@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oIcicle",
   "spriteId": {
     "name": "sIcicle",
     "path": "sprites/sIcicle/sIcicle.yy",
@@ -28,8 +31,4 @@
     "name": "Enemy",
     "path": "folders/Enemy.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oIcicle",
-  "tags": [],
-  "resourceType": "GMObject",
 }
