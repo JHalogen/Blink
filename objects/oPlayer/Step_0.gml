@@ -4,7 +4,8 @@ if (hascontrol)
 	key_left = keyboard_check(vk_left);
 	key_right = keyboard_check(vk_right);
 	key_jump = keyboard_check_pressed(vk_space);
-
+	key_up = keyboard_check(vk_up);
+	key_down = keyboard_check(vk_down);
 
 }
 else
@@ -19,7 +20,9 @@ var move = key_right - key_left;
 
 hsp = move * walksp;
 
-vsp = vsp + grv;
+if(onLadder == false){
+	vsp = vsp + grv;// maniplulate this with gravity
+}
 
 
 
@@ -81,3 +84,21 @@ else
 
 if (hsp != 0) image_xscale = sign(hsp);
 
+//Ladder
+if (key_up || key_down){
+	if(place_meeting(x,y,oLadder)){
+		onLadder = true;
+	}
+}
+if(onLadder){
+	vsp = 0;
+	if (key_up){
+		vsp = -3;
+	}
+	if (key_down){
+		vsp = 3;
+	}
+	if(!place_meeting(x,y,oLadder) || key_jump){
+		onLadder = false;
+	}
+}

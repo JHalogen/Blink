@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oIcicle",
+  "name": "oLadder",
   "spriteId": {
-    "name": "sIcicle",
-    "path": "sprites/sIcicle/sIcicle.yy",
+    "name": "sLadder",
+    "path": "sprites/sLadder/sLadder.yy",
   },
   "solid": false,
   "visible": true,

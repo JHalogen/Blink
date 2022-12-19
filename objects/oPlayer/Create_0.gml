@@ -3,5 +3,6 @@ vsp = 0;
 grv = 0.3;
 walksp = 4;
 hascontrol = true;
+onLadder = false;
 
 instance_create_layer(x,y,layer,oCamera);
