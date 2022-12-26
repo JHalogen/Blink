@@ -98,7 +98,7 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "EnemynMechanics",
-    "path": "folders/EnemynMechanics.yy",
+    "name": "Red",
+    "path": "folders/EnemynMechanics/Red.yy",
   },
 }

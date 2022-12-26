@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oEnemyGreen",
+  "name": "oEnemyPurple",
   "spriteId": {
-    "name": "sEnemyGreen",
-    "path": "sprites/sEnemyGreen/sEnemyGreen.yy",
+    "name": "sEnemyPurple",
+    "path": "sprites/sEnemyPurple/sEnemyPurple.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,13 +26,13 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Green",
-    "path": "folders/EnemynMechanics/Green.yy",
+    "name": "Purple(Unfinished)",
+    "path": "folders/EnemynMechanics/Purple(Unfinished).yy",
   },
 }

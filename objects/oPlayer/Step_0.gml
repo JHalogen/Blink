@@ -39,11 +39,12 @@ if(Collision(x+hsp,y))
 		hsp *= 0.5;
 		if(!Collision(x+hsp,y)) x += hsp;
 	}
+	;
 	hsp = 0;
 }
 x = x + hsp;
 
-//Vertical Collision
+//Vertical Collision + moving platform collison (test)
 if(Collision(x,y+vsp))
 {
 	while (abs(vsp) > 0.1)

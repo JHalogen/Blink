@@ -86,7 +86,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "EnemynMechanics",
-    "path": "folders/EnemynMechanics.yy",
+    "name": "Yellow(Unfinished)",
+    "path": "folders/EnemynMechanics/Yellow(Unfinished).yy",
   },
 }
