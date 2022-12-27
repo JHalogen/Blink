@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oCamera",
-  "spriteId": null,
+  "name": "oPlayerDead",
+  "spriteId": {
+    "name": "sPlayerDeath",
+    "path": "sprites/sPlayerDeath/sPlayerDeath.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -22,13 +25,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Globals",
-    "path": "folders/Globals.yy",
+    "name": "Player",
+    "path": "folders/Player.yy",
   },
 }

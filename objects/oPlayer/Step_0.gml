@@ -15,6 +15,7 @@ else
 	key_jump = 0;
 }
 
+
 //Calculate Movement
 var move = key_right - key_left;
 
@@ -26,9 +27,27 @@ if(onLadder == false){
 
 
 
-if(Collision(x,y+1)) && (key_jump)
-{
+if((key_jump) && Collision(x,y+1)){
 	vsp = -7;
+}
+if((key_jump) && place_meeting(x, y+1, oPlatformMoving)){
+	vsp = -7;
+}
+
+// Moving platform collision
+var movingPlatform = instance_place(x, y + max(1, vsp), oPlatformMoving);
+if (movingPlatform && bbox_bottom <= movingPlatform.bbox_top){
+	// pixel perfect collision
+	if (vsp > 0 ) {
+		while (!place_meeting(x, y + sign(vsp), oPlatformMoving)){
+			y += sign(vsp);
+		}
+		vsp = 0;
+	}
+
+	// add velocity
+	x += movingPlatform.hsp;
+	y += movingPlatform.vsp;
 }
 
 //Horizontal Collision
@@ -56,6 +75,7 @@ if(Collision(x,y+vsp))
 }
 y = y + vsp;
 
+
 //Animation
 if(!Collision(x,y+1))
 {
@@ -82,6 +102,7 @@ else
 		else if(sprite_index != sPlayerTurn) sprite_index = sPlayerWalk;
 	}
 }
+
 
 if (hsp != 0) image_xscale = sign(hsp);
 
