@@ -33,3 +33,4 @@ for (var i = 0; i < menu_items; i +=1)
 
 draw_set_color(c_white);
 draw_text(x-300,y-170,"Blink")
+draw_text(x-170,y-120,"by Justin Han")
