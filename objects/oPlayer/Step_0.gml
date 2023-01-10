@@ -26,9 +26,10 @@ if(onLadder == false){
 }
 
 
-
-if((key_jump) && Collision(x,y+1)){
+canjump -= 1;
+if((key_jump) && (canjump > 0)){
 	vsp = -7;
+	canjump = 0;
 }
 if((key_jump) && place_meeting(x, y+1, oPlatformMoving)){
 	vsp = -7;
@@ -85,6 +86,7 @@ if(!Collision(x,y+1))
 }
 else
 {
+	canjump = 6;
 	if(sprite_index == sPlayerAir)
 	{
 		audio_sound_pitch(snLand,choose(0.8,1.0,1.2))
