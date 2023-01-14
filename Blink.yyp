@@ -75,6 +75,7 @@
     {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},"order":0,},
     {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},"order":3,},
     {"id":{"name":"sLadder","path":"sprites/sLadder/sLadder.yy",},"order":3,},
+    {"id":{"name":"oEnemyOrange","path":"objects/oEnemyOrange/oEnemyOrange.yy",},"order":1,},
     {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},"order":12,},
     {"id":{"name":"oEnemyYellow","path":"objects/oEnemyYellow/oEnemyYellow.yy",},"order":0,},
     {"id":{"name":"rlevel8","path":"rooms/rlevel8/rlevel8.yy",},"order":1,},
@@ -115,6 +116,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"EnemynMechanics","folderPath":"folders/EnemynMechanics.yy","order":6,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Blue","folderPath":"folders/EnemynMechanics/Blue.yy","order":17,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Green","folderPath":"folders/EnemynMechanics/Green.yy","order":18,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Orange(Unfinished)","folderPath":"folders/EnemynMechanics/Orange(Unfinished).yy","order":21,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Purple(Unfinished)","folderPath":"folders/EnemynMechanics/Purple(Unfinished).yy","order":20,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Red","folderPath":"folders/EnemynMechanics/Red.yy","order":16,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Yellow","folderPath":"folders/EnemynMechanics/Yellow.yy","order":19,},
@@ -128,7 +130,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Player/Sprites.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":0,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Orange(Unfinished)","folderPath":"folders/EnemynMechanics/Orange(Unfinished).yy","order":21,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
