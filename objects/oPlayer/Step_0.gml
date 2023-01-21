@@ -51,6 +51,15 @@ if (movingPlatform && bbox_bottom <= movingPlatform.bbox_top){
 	y += movingPlatform.vsp;
 }
 
+//gate collision
+if(place_meeting(x + hsp,y,oGate))
+{
+	while (!place_meeting(x + sign(hsp), y, oGate))
+	{
+		x = x + hsp;
+	}
+	hsp = 0;
+}
 //Horizontal Collision
 if(Collision(x+hsp,y))
 {
