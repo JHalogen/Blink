@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oButton",
+  "name": "oJumpBlock",
   "spriteId": {
-    "name": "sButton",
-    "path": "sprites/sButton/sButton.yy",
+    "name": "sJumpBlock",
+    "path": "sprites/sJumpBlock/sJumpBlock.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,13 +25,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Purple",
-    "path": "folders/EnemynMechanics/Purple.yy",
+    "name": "Orange(Unfinished)",
+    "path": "folders/EnemynMechanics/Orange(Unfinished).yy",
   },
 }

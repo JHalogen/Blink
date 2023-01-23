@@ -28,11 +28,18 @@ if(onLadder == false){
 
 canjump -= 1;
 if((key_jump) && (canjump > 0)){
-	vsp = -7;
+	vsp = jumpheight;
 	canjump = 0;
+	audio_play_sound(snJump,10,false)
 }
 if((key_jump) && place_meeting(x, y+1, oPlatformMoving)){
-	vsp = -7;
+	vsp = jumpheight;
+	audio_play_sound(snJump,10,false)
+}
+
+if(place_meeting(x,y+1,oJumpBlock) && (key_jump)){
+	vsp = jumpheight*1.69;
+	audio_play_sound(snJump,10,false)
 }
 
 // Moving platform collision
@@ -60,6 +67,34 @@ if(place_meeting(x + hsp,y,oGate))
 	}
 	hsp = 0;
 }
+
+if(place_meeting(x,y + vsp,oGate))
+{
+	while (!place_meeting(x, y + sign(vsp), oGate))
+	{
+		y = y + vsp;
+	}
+	vsp = 0;
+}
+
+//JumpBlock Collision
+if(place_meeting(x + hsp,y,oJumpBlock))
+{
+	while (!place_meeting(x + sign(hsp), y, oJumpBlock))
+	{
+		x = x + sign(hsp);
+	}
+	hsp = 0;
+}
+if(place_meeting(x,y + vsp,oJumpBlock))
+{
+	while (!place_meeting(x, y + sign(vsp), oJumpBlock))
+	{
+		y = y + sign(vsp);
+	}
+	vsp = 0;
+}
+
 //Horizontal Collision
 if(Collision(x+hsp,y))
 {

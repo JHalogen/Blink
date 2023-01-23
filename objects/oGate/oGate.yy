@@ -33,7 +33,7 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Purple(Unfinished)",
-    "path": "folders/EnemynMechanics/Purple(Unfinished).yy",
+    "name": "Purple",
+    "path": "folders/EnemynMechanics/Purple.yy",
   },
 }
