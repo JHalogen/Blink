@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tBlock",
   "spriteId": {
     "name": "sBlock",
     "path": "sprites/sBlock/sBlock.yy",
@@ -40,8 +43,4 @@
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tBlock",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

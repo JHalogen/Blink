@@ -1,5 +1,5 @@
-platformSpeed = 1;
-currentSpeed = 1;
+platformSpeed = 1.25;
+currentSpeed = 1.25;
 hsp = 0;
 vsp = 0;
 
