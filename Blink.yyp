@@ -93,6 +93,7 @@
     {"id":{"name":"oEnemyOrange","path":"objects/oEnemyOrange/oEnemyOrange.yy",},"order":1,},
     {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},"order":12,},
     {"id":{"name":"oEnemyYellow","path":"objects/oEnemyYellow/oEnemyYellow.yy",},"order":0,},
+    {"id":{"name":"sIcon","path":"sprites/sIcon/sIcon.yy",},"order":6,},
     {"id":{"name":"rlevel8","path":"rooms/rlevel8/rlevel8.yy",},"order":1,},
   ],
   "Options": [
