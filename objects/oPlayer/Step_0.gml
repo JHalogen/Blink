@@ -68,15 +68,6 @@ if(place_meeting(x + hsp,y,oGate))
 	hsp = 0;
 }
 
-if(place_meeting(x,y + vsp,oGate))
-{
-	while (!place_meeting(x, y + sign(vsp), oGate))
-	{
-		y = y + vsp;
-	}
-	vsp = 0;
-}
-
 //JumpBlock Collision
 if(place_meeting(x + hsp,y,oJumpBlock))
 {
